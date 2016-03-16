@@ -24,6 +24,8 @@ public class MyLinkedList<E> implements List<E> {
 	 */
 	private class Node {
 		public E cargo;
+
+		
 		public Node next;
 		
 		public Node() {
