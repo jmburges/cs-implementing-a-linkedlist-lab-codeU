@@ -97,7 +97,8 @@ public class MyLinkedList<E> implements List<E> {
 
 	@Override
 	public boolean addAll(Collection<? extends E> collection) {
-		boolean flag = true;
+		/* throw new UnsupportedOperationException(); */
+		boolean flag = false;
 		for (E element: collection) {
 			flag &= add(element);
 		}
